@@ -138,6 +138,7 @@ STATIC_URL = '/static-files/'
 MEDIA_URL = '/media-files/'
 MEDIA_ROOT = 'uploads'
 
+# SITE_ID = 1
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
