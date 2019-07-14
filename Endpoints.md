@@ -1,5 +1,5 @@
 # Project Endpoints
-Endpoints for the Restaurants Review website using Django's Rest Framework and React
+Endpoints for the Restaurants Review website using Django's Rest Framework, PostgreSQL and React
 
 ## The Website has the following Endpoints
 
