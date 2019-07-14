@@ -1,11 +1,11 @@
-# Restaurant Review Project
+# Restaurant Reviews Project
 
 - API Docs: http://localhost:8090/api/docs/
 - Admin: http://localhost:8090/admin
 - [Endpoints](./Endpoints.md)
 
 
-Welcome to the solutions of Restaurants Review website backend.
+Welcome to the solutions of Restaurant Reviews website backend.
 
 ### Models Representation
 
