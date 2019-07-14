@@ -1,31 +1,23 @@
 version: '3'
 services:
-  database:
-    image: postgres:latest
-    restart: always
-    env_file:
-      - dev.env
-    volumes:
-      - database:/var/lib/postgresql/data
-
   app:
-    image: registry.gitlab.propulsion-home.ch/full-stack/batch-05-2019/group-projects/aries
-    command: "/usr/sbin/sshd -D"
-    restart: always
+    image: django-rest
+    tty: true
     env_file:
       - dev.env
     ports:
-      - "8090:8000"
-      - "4738:22"
+      - 8000:8000
     depends_on:
-      - database
+      - postgres
     volumes:
       - ./app:/app
-      - ./media-files:/media-files
-      - ./static-files:/static-files
-      - ./scripts:/scripts
-      - frontend:/frontend/build
+
+  postgres:
+    image: postgres:latest
+    env_file:
+      - dev.env
+    volumes:
+      - postgres:/var/lib/postgresql/data
 
 volumes:
-  database:
-  frontend:
+  postgres:
