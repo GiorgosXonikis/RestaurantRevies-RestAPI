@@ -2,7 +2,7 @@
 
 - API Docs: http://localhost:8090/api/docs/
 - Admin: http://localhost:8090/admin
-- [Endpoints](.Endpoints.md)
+- [Endpoints](./Endpoints.md)
 
 
 Welcome to the solutions of Restaurants Review website backend.
