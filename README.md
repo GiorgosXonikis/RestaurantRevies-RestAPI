@@ -1,4 +1,4 @@
-# Restaurants Review Project
+# Restaurant Review Project
 
 - API Docs: http://localhost:8090/api/docs/
 - Admin: http://localhost:8090/admin
