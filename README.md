@@ -4,7 +4,6 @@
 - Admin: http://localhost:8090/admin
 - [Endpoints](./Endpoints.md)
 
-
 Welcome to the solutions of Restaurant Reviews website backend.
 
 ### Models Representation
